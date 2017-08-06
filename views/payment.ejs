@@ -126,7 +126,7 @@
 	<span ng-show="myForm.phno.$error.pattern">Invalid Phone Number.</font></span>
 	</span>
 	</p><br><br>
-	<p>Amount to be paid: <%= prices %></p><br>
+	<p style="display: inline;">Amount to be paid:	<div class="ind">		 <%=prices%> </div></p><br>
 	Mode of Payment:<font color="red">*</font>
 	<select class="pay" name="pay"ng-model="pay"required>
 	<option value="SELECT_pay">---Select mode of Payment---</option>

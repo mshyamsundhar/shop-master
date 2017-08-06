@@ -75,8 +75,9 @@ module.exports = function(app){
   });
 });
   app.get('/payment',function(req,res) {
-     var data=req.params.price;
-    res.render('payment',{prices:data});
+      console.log(req.query.price);
+    res.render('payment',{prices:req.query.price});
+
   });
   app.post('/payment',urlencodedParser,function(req,res) {
     var itemOne= new Pay();

@@ -51,7 +51,7 @@ header
 }
 .searc:focus
 {
-	width: 75%;
+	width: 80%;
 }
 input[type=text]:focus
 {
@@ -108,6 +108,9 @@ input[type=text]:focus
 		position: static;
 		margin-left: -50px;
 		margin-bottom: -20px;
+}
+.ind{
+  margin-left: 45%;
 }
 .bg1
 {
